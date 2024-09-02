@@ -6,7 +6,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of owhaley is to produce a whale with a nice message
+The goal of owhaley is to produce a whale with a nice message.
 
 ## Example
 
