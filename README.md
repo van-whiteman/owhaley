@@ -8,7 +8,11 @@ Whale-come! This R package was inspired by
 [praise](https://github.com/rladies/praise). I hope this package made
 you smile today!
 
+<<<<<<< HEAD
 ## First things first
+=======
+The goal of owhaley is to produce a whale with a nice message.
+>>>>>>> 4bd74edc869b5738b503edb18a0b83e758afe497
 
 `ohwhaley` is a toy project and is still under development. You can
 install the latest version from [GitHub](https://github.com/) with:
