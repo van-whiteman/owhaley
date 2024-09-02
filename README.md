@@ -1,34 +1,35 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# owhaley
+# ohwhaley
 
-<!-- badges: start -->
-<!-- badges: end -->
+Whale-come! This R package was inspired by
+[cowsay](https://github.com/sckott/cowsay) and
+[praise](https://github.com/rladies/praise). I hope this package made
+you smile today!
 
-The goal of owhaley is to produce a whale with a nice message for
-STAT1378 tutorial work.
+## First things first
 
-owhaley is a work in progress and can be downloaded from
-[GitHub](https://github.com/):
+`ohwhaley` is a toy project and is still under development. You can
+install the latest version from [GitHub](https://github.com/) with:
 
 ``` r
-install.packages("remotes")
-library(remotes)
+# install.packages("remotes")
 remotes::install_github("van-whiteman/owhaley")
 ```
 
-## Example
+## Take it for a spin
 
-`owhaley` contains one function only. `say()` will echo a randomly
+`ohwhaley` contains one function only. `say()` will echo a randomly
 chosen whale-themed phrase for your enjoyment.
 
 ``` r
 library(owhaley)
+ 
 say() 
 #> 
 #>             ------ 
-#>            Whale, whale, whale...look who's here! 
+#>            Get whale soon! 
 #>             ------ 
 #>                \   
 #>                 \  
@@ -60,5 +61,4 @@ say("I'm beached as bro!!!")
 #>      '._/_.'___.-`
 ```
 
-’t forget to commit and push the resulting figure files, so they display
-on GitHub and CRAN.
+\`\`\`

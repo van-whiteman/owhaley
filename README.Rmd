@@ -8,39 +8,43 @@ output: github_document
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
+  warnings = FALSE, 
+  messages = FALSE, 
+  prompt = FALSE,
   fig.path = "man/figures/README-",
   out.width = "100%"
 )
+
 ```
 
-# owhaley
+# ohwhaley  
 
-<!-- badges: start -->
-<!-- badges: end -->
+Whale-come! This R package was inspired by [cowsay](https://github.com/sckott/cowsay) and [praise](https://github.com/rladies/praise). I hope this package made you smile today! 
 
-The goal of owhaley is to produce a whale with a nice message for STAT1378 tutorial work.
+## First things first
 
-owhaley is a work in progress and can be downloaded from [GitHub](https://github.com/):
+`ohwhaley` is a toy project and is still under development. You can install the latest version from [GitHub](https://github.com/) with:
+
 ```{r, install, results = "hide", eval = FALSE}
-install.packages("remotes")
-library(remotes)
+# install.packages("remotes")
 remotes::install_github("van-whiteman/owhaley")
 ```
 
+## Take it for a spin
 
-## Example
-`owhaley` contains one function only. `say()` will echo a randomly chosen whale-themed phrase for your enjoyment.
+`ohwhaley` contains one function only. `say()` will echo a randomly chosen whale-themed phrase for your enjoyment.
 
 ```{r example}
 library(owhaley)
+ 
 say() 
 ```
-
-
 
 Alternatively, you can supply your own phrase
 
 ```{r, customise}
 say("I'm beached as bro!!!")
 ```
-'t forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
+```
+
+
